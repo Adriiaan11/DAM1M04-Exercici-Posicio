@@ -160,11 +160,27 @@ body{
 /* Imatges dels valors */
 .valor img {
     width: 80px;
-    height: 80px;
+    height: 100px;
     object-fit: contain;
-    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto 10px;
 }
 
+/* Posició individual de cada imatge */
+.img-qualitat {
+    position: relative;
+    left: 0px;
+}
+
+.img-rendiment {
+    position: relative;
+    right: 15px;
+}
+
+.img-superacio {
+    position: relative;
+    right: 13px;
+}
 .valor h3 {
     color: #ff6b00;
     font-size: 23px;
