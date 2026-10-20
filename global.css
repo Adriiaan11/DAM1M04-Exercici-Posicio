@@ -346,3 +346,13 @@ footer a {
 footer a:hover {
     color: white;
 }
+
+.valor span {
+    display: inline-block;
+    background-color: #ff6b00;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
