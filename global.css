@@ -1,23 +1,35 @@
-a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-a:hover{
-    color: rgb(255,0,0);
-    text-decoration: underline;
-}
 
 .capçalera{
-    background-color: rgb(0, 0, 0);
     opacity: 0.5;
     backdrop-filter: rgba (0,0,0,0.45);
     position: fixed;
     top: 0;
-    width:100dvw;
     height: 35px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     z-index:1000;
+}
+.capçalera{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111111;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    width: 100%;
+    gap: 15px;
+}
+.capçalera a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+}
+.capçalera a:hover {
+    color: #ff6b00; 
+}
+
+
+.logo{
+    color: #ff6b00;
+    font-size: 28px;
+    margin: 0;
 }
