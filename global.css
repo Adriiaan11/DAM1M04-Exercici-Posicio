@@ -7,7 +7,7 @@ body{
     margin: 0;
     min-height: 100vh;
     background: linear-gradient(35deg, #111111,#7a3300 , #ffffff);
-    backgound-attachment: fixed;
+    background-attachment: fixed;
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255)
 }
@@ -28,8 +28,8 @@ body{
         rgba(0,0,0,0.75)
     ), url("img/gimnasio.jpeg");
 
-    backgound-size: cover;
-    backgound-position: center;
+    background-size: cover;
+    background-position: center;
     padding: 40px 20px;
 }
 
