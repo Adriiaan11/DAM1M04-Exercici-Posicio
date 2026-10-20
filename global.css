@@ -215,3 +215,70 @@ body{
     font-size: 22px;
     font-weight: bold;
 }
+/* Pàgina de contacte */
+.pagina-contacte{
+    padding: 100px 30px 60px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.pagina-contacte > h2 {
+    color: #ff6b00;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.intro-contacte{
+    color:white;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+/* Targeta de contacte */
+.targeta-contacte{
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 35px;
+    box-sizing: border-box;
+    background-color: rgba(17,17,17,0.85);
+    border-radius: 10px;
+}
+
+.targeta-contacte h3 {
+    color: #ff6b00;
+    font-size: 26px;
+}
+.targeta-contacte > p {
+    color: white;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.dada-contacte{
+    margin-top: 25px;
+}
+.dada-contacte h4{
+    color: #ff6b00;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.dada-contacte p {
+    color: white;
+    line-height: 1.6;
+}
+/* Xarxes socials */
+.xarxes-socials {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.xarxes-socials a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.xarxes-socials a:hover {
+    color: #ff6b00;
+}
