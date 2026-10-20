@@ -14,7 +14,22 @@ body{
 
 
 /* Secció principal */
+.principal{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
+    background-image: linear-gardient(
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.75)
+    ), url("img/gimnasio.jpeg");
+
+    backgound-size: cover;
+    backgound-position: center;
+    padding: 40px 20px;
+}
 
 .capçalera{
     opacity: 0.5;
