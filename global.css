@@ -138,3 +138,26 @@ body{
     font-size: 28px;
     margin: 0;
 }
+
+/* Valors de la marca */
+.valors{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.valor{
+    flex: 1;
+    background-color: rgba(17, 17, 17, 0.65);
+    padding: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.valor h3{
+    color: #ff6b00;
+    font-size: 23px;
+}
+.valor p{
+    color: white;
+    line-height: 1.6;
+}
