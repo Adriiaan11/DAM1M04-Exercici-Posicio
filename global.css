@@ -31,6 +31,33 @@ body{
     padding: 40px 20px;
 }
 
+.contingut-principal h2 {
+    font-size: 48px;
+    color: #ff6b00;
+    margin-bottom: 15px;
+}
+
+.contingut-principal p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Botó de productes */
+
+.boto {
+    display: inline-block;
+    background-color: #ff6b00;
+    color: white;
+    text-decoration: none;
+    padding: 14px 24px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.boto:hover {
+    background-color: #e65f00;
+}
+
+
 .capçalera{
     opacity: 0.5;
     backdrop-filter: rgba (0,0,0,0.45);
