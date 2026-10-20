@@ -356,3 +356,28 @@ footer a:hover {
     font-size: 13px;
     margin-bottom: 10px;
 }
+
+/* Banda de beneficis */
+.beneficis {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    padding: 30px 20px;
+    background-color: rgba(17, 17, 17, 0.85);
+    text-align: center;
+}
+
+.benefici{
+    flex: 1;
+}
+
+.benefici h3 {
+    color: #ff6b00;
+    font-size: 20px;
+}
+
+.benefici p {
+    color: white;
+    font-size: 15px;
+}
