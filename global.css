@@ -15,12 +15,14 @@ body{
 
 /* Secció principal */
 .principal{
-    min-height: 500px;
+    min-height: 650px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    padding: 80px 30px 40px;
+    box-sizing: border-box;
     background-image: linear-gardient(
         rgba(0,0,0,0.55),
         rgba(0,0,0,0.75)
@@ -31,15 +33,35 @@ body{
     padding: 40px 20px;
 }
 
+.contingut-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 1000px;
+}
+
 .contingut-principal h2 {
     font-size: 48px;
     color: #ff6b00;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
+}
+
+.contingut-principal img {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    border-radius: 8px;
 }
 
 .contingut-principal p {
-    font-size: 20px;
-    margin-bottom: 30px;
+    font-size: 18px;
+    margin: 0;
+    color: white;
+}
+
+.boto{
+    margin-top: 10px;
 }
 
 /* Botó de productes */
