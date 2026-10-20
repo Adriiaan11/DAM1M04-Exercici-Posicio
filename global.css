@@ -1,3 +1,20 @@
+/* Estils generals */
+html{
+    min-height: 100%;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(35deg, #111111,#7a3300 , #ffffff);
+    backgound-attachment: fixed;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255)
+}
+
+
+/* Secció principal */
+
 
 .capçalera{
     opacity: 0.5;
