@@ -142,24 +142,35 @@ body{
 }
 
 /* Valors de la marca */
-.valors{
+.valors {
     display: flex;
     justify-content: center;
     gap: 25px;
 }
 
-.valor{
+.valor {
     flex: 1;
     background-color: rgba(17, 17, 17, 0.65);
     padding: 25px;
     border-radius: 10px;
     box-sizing: border-box;
+    text-align: center;
 }
-.valor h3{
+
+/* Imatges dels valors */
+.valor img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.valor h3 {
     color: #ff6b00;
     font-size: 23px;
 }
-.valor p{
+
+.valor p {
     color: white;
     line-height: 1.6;
 }
