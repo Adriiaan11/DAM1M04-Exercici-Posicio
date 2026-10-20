@@ -57,6 +57,25 @@ body{
     background-color: #e65f00;
 }
 
+/* Presentació de la marca */
+
+.presentacio {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.presentacio h2 {
+    font-size: 32px;
+    color: #ff6b00;
+}
+
+.presentacio p {
+    color: #cccccc;
+    font-size: 18px;
+    line-height: 1.7;
+}
 
 .capçalera{
     opacity: 0.5;
