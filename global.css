@@ -21,16 +21,8 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 80px 30px 40px;
+    padding: 80px 20px 40px;
     box-sizing: border-box;
-    background-image: linear-gardient(
-        rgba(0,0,0,0.55),
-        rgba(0,0,0,0.75)
-    ), url("img/gimnasio.jpeg");
-
-    background-size: cover;
-    background-position: center;
-    padding: 40px 20px;
 }
 
 .contingut-principal {
@@ -41,7 +33,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    max-width: 1000px;
+    box-sizing: border-box;
 }
 
 .contingut-principal h2 {
@@ -557,7 +549,7 @@ footer a:hover {
         gap: 10px;
     }
 
-    .filtres a {
+    .filtres label {
         padding: 8px 12px;
     }
 
