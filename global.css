@@ -673,3 +673,22 @@ footer a:hover {
     box-sizing: border-box;
 }
 
+.formulari-contacte textarea {
+    resize: vertical;
+}
+
+.formulari-contacte button {
+    background-color: #ff6b00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulari-contacte button:hover {
+    background-color: #e65f00;
+}
