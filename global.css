@@ -607,3 +607,20 @@ footer a:hover {
         font-size: 1rem;
     }
 }
+
+/* Filtres de productes */
+.filtres input {
+    display: none;
+}
+
+.filtres label {
+    display: inline-block;
+    background-color: #111111;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ff6b00;
+    cursor: pointer;
+}
+
