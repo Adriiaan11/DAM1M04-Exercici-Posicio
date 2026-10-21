@@ -632,3 +632,17 @@ footer a:hover {
     background-color: #ff6b00;
 }
 
+/* Filtrar guants */
+.filtres:has(#filtro-guants:checked) ~ .cataleg .producte:not(.guants) {
+    display: none;
+}
+
+/* Filtrar accessoris */
+.filtres:has(#filtro-accessoris:checked) ~ .cataleg .producte:not(.accessoris) {
+    display: none;
+}
+
+/* Filtrar roba */
+.filtres:has(#filtro-roba:checked) ~ .cataleg .producte:not(.roba) {
+    display: none;
+}
