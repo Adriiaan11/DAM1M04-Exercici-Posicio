@@ -385,3 +385,27 @@ footer a:hover {
     color: white;
     font-size: 15px;
 }
+
+/* Barra de filtres */
+.filtres {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.filtres a {
+    display: inline-block;
+    background-color: #111111;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ff6b00;
+}
+
+.filtres a:hover {
+    background-color: #ff6b00;
+    color: white;
+}
