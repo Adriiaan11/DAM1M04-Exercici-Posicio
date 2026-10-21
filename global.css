@@ -624,3 +624,11 @@ footer a:hover {
     cursor: pointer;
 }
 
+.filtres label:hover {
+    background-color: #ff6b00;
+}
+
+.filtres input:checked + label {
+    background-color: #ff6b00;
+}
+
