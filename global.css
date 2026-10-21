@@ -593,3 +593,17 @@ footer a:hover {
     }
 
 }
+/* Mides de lletra en mòbils */
+@media (max-width: 767px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    p,a {
+        font-size: 1rem;
+    }
+}
