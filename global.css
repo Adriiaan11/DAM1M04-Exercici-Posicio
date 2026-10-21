@@ -646,3 +646,30 @@ footer a:hover {
 .filtres:has(#filtro-roba:checked) ~ .cataleg .producte:not(.roba) {
     display: none;
 }
+
+/* Formulari de contacte */
+.formulari-contacte {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.formulari-contacte label {
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.formulari-contacte input, .formulari-contacte textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    background-color: #222222;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
