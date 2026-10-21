@@ -409,3 +409,40 @@ footer a:hover {
     background-color: #ff6b00;
     color: white;
 }
+
+/* Contingut de contacte en dues columnes */
+.contingut-contacte {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.columna-contacte {
+    background-color: rgba(17, 17, 17, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+.columna-contacte h3 {
+    color: #ff6b00;
+    font-size: 26px;
+}
+
+.columna-contacte p, .columna-contacte a {
+    color: white;
+    line-height: 1.6;
+}
+
+.columna-contacte a {
+    text-decoration: none;
+}
+
+.columna-contacte a:hover {
+    color: #ff6b00;
+}
