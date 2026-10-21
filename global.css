@@ -452,7 +452,6 @@ footer a:hover {
     min-height: 200px;
     margin-top: 25px;
     border-radius: 10px;
-    overflow: hidden;
     background-color: #ded8c8;
     background-image:
         linear-gradient(35deg, transparent 42%, white 43%, white 47%, transparent 48%),
@@ -478,4 +477,119 @@ footer a:hover {
 .text-mapa {
     color: #333333;
     font-size: 14px;
+}
+
+/* Adaptació de la web a mòbils */
+@media (max-width: 767px) {
+ /* Menú superior */
+    .capçalera {
+        height: auto;
+        min-height: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .capçalera a {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    .logo img {
+        width: 100px;
+        height: auto;
+    }
+
+    /* Pàgina principal */
+    .principal {
+        min-height: auto;
+        padding: 100px 15px 30px;
+    }
+
+    .contingut-principal h2 {
+        font-size: 32px;
+    }
+
+    .contingut-principal img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-presentacio {
+        padding: 40px 15px;
+    }
+
+    .valors {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .valor {
+        width: 100%;
+    }
+
+    /* Banda de beneficis */
+    .beneficis {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Pàgina de productes */
+    .pagina-productes {
+        padding: 110px 15px 40px;
+    }
+
+    .pagina-productes > h2 {
+        font-size: 30px;
+    }
+
+    .cataleg {
+        flex-direction: column;
+    }
+
+    .producte {
+        flex: none;
+        width: 100%;
+    }
+
+    .filtres {
+        gap: 10px;
+    }
+
+    .filtres a {
+        padding: 8px 12px;
+    }
+
+    /* Pàgina de contacte */
+    .pagina-contacte {
+        padding: 110px 15px 40px;
+    }
+
+    .pagina-contacte > h2 {
+        font-size: 30px;
+    }
+
+    .contingut-contacte {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 0;
+    }
+
+    .columna-contacte {
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    /* Mapa */
+    .mapa-fictici {
+        min-height: 180px;
+    }
+
+    /* Peu de pàgina */
+    footer {
+        padding: 15px;
+        overflow-wrap: anywhere;
+    }
+
 }
